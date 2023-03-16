@@ -225,19 +225,10 @@ PRODUCT_PACKAGES += \
 # Audio
 PRODUCT_PACKAGES += \
     sound_trigger.primary.sm8450 \
-    audio.primary.sm8450 \
-    libcirrusspkrprot
 
 # Camera
 PRODUCT_PACKAGES += \
     model3.dat
-
-# GFX
-PRODUCT_PACKAGES += \
-    copybit.sm8450 \
-    gralloc.sm8450 \
-    hwcomposer.sm8450 \
-    memtrack.default
 
 # Keymaster 4 passthrough service init file
 # (executable is on odm)
@@ -256,10 +247,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 DEVICE_MANIFEST_FILE += \
     $(PLATFORM_COMMON_PATH)/vintf/android.hw.keymaster_v4.1.xml \
     $(PLATFORM_COMMON_PATH)/vintf/vendor.qti.hardware.qseecom_v1.0.xml
-
-# GPS
-PRODUCT_PACKAGES += \
-    gps.sm8450
 
 # Sensors init
 PRODUCT_PACKAGES += \
@@ -382,9 +369,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # QCOM Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.bluetooth@1.0-service-qti
-
+ 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.qcom.bluetooth.soc=hastings
 
