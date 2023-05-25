@@ -223,8 +223,8 @@ PRODUCT_PACKAGES += \
     audiopd.rc
 
 # Audio
-PRODUCT_PACKAGES += \
-    sound_trigger.primary.sm8450 \
+# PRODUCT_PACKAGES += \
+#     sound_trigger.primary.sm8450 \
 
 # Camera
 PRODUCT_PACKAGES += \
