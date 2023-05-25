@@ -15,7 +15,7 @@
 # Platform path
 PLATFORM_COMMON_PATH := device/sony/nagara
 
-TARO := sm8450
+TARO := taro
 
 SOMC_PLATFORM := nagara
 SOMC_KERNEL_VERSION := 5.10
